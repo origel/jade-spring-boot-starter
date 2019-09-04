@@ -1,10 +1,10 @@
-package org.origel.spring.boot.autoconfigure;
+package org.origel.jade.spring.boot;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = JadeProperties.JADE_PREFIX)
 public class JadeProperties {
-    public static final String JADE_PREFIX = "jade";
+    public static final String JADE_PREFIX = "spring.jade";
 
     private String configLocation;
 

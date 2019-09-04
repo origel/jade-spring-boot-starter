@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.origel.jade.spring.boot.JadeAutoConfiguration,\
+org.origel.jade.spring.boot.JadeProviderAutoConfiguration,\
+org.origel.jade.spring.boot.JadeConsumerAutoConfiguration
+
+org.springframework.context.ApplicationListener=\
+org.origel.jade.spring.boot.context.event.JadeBannerApplicationListener
