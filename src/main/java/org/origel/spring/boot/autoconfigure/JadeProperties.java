@@ -2,7 +2,7 @@ package org.origel.spring.boot.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = JadeProperties.MYBATIS_PREFIX)
+@ConfigurationProperties(prefix = JadeProperties.JADE_PREFIX)
 public class JadeProperties {
     public static final String JADE_PREFIX = "jade";
 
